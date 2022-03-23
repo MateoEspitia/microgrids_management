@@ -1,0 +1,46 @@
+{
+    "generators": [
+        {
+            "id_gen": "Solar1",
+            "tec": "S",
+            "va_op": 700,
+            "ef": 0.18,
+            "G_test": 420,
+            "R_test": 1000
+        },
+        {
+            "id_gen": "Wind1",
+            "tec": "W",
+            "va_op": 450,
+            "ef": 0.35,
+            "s": 75.4,
+            "p": 1.28,
+            "w_min": 3,
+            "w_a": 10.5,
+            "w_max": 25
+        },        
+        {
+            "id_gen": "Diesel1",
+            "tec": "D",
+            "va_op": 3000,
+            "ef": 0.24,
+            "g_min":15,
+            "g_max": 500
+        }     
+
+    ],
+    
+    "battery":{
+        "id_bat": "Battery1",
+        "ef": 0.95,
+        "o": 0.05,
+        "ef_inv": 0.95,
+        "eb_zero": 250,
+        "zb": 500,
+        "epsilon": 0.1,
+        "M": 8,
+        "mcr": 100,
+        "mdr": 100
+    }
+
+}
